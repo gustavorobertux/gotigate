@@ -47,7 +47,6 @@ func main() {
 	}
 	req.Host = TARGET
 	req.Header.Set("user-agent", "Node.js")
-	//req.Header.Set("Accept-Encoding", "gzip, deflate")
 	req.Header.Set("Accept", "*/*")
 	req.Header.Set("Connection", "close")
 	req.Header.Set("Host", "127.0.0.1:9980")
